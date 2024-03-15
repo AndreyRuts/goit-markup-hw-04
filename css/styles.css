@@ -78,6 +78,15 @@ img {
   display: flex;
   align-items: center;
 }
+.navigation-list-item:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404bbf;
+}
 .logo-blue {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -100,6 +109,7 @@ img {
   color: #404bbf;
 }
 .navigation-list {
+  position: relative;
   gap: 40px;
   display: flex;
 }
@@ -111,6 +121,7 @@ img {
   color: #2e2f42;
   display: block;
   padding: 24px 0;
+
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-list-item:hover,
