@@ -162,7 +162,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/bg-people-office\ -min.jpg");
+    url("../images/bg-people-office-min.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -257,16 +257,15 @@ img {
   background: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
-  box-shadow: 1px 1px 5px rgba(78, 78, 78, 20%);
-}
-.team-list-img {
-  margin-bottom: 32px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .list-text {
   margin-bottom: 8px;
 }
 .team-list-text-align {
   text-align: center;
+  padding: 32px 0;
 }
 .team-list-social-icons {
   display: flex;
@@ -280,7 +279,6 @@ img {
   height: 40px;
   border-radius: 50%;
   position: relative;
-  margin-bottom: 32px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon {
@@ -292,6 +290,35 @@ img {
 .social-icon-container:hover,
 .social-icon-container:focus {
   background: #404bbf;
+}
+/* revork */
+.team-icon-comtainer-fix {
+  padding: 32px 0;
+}
+.team-icon-list-fix {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.team-icon-list-item-fix {
+  width: 40px;
+  height: 40px;
+}
+.team-icon-list-item-link-fix {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-icon-list-item-link-fix:hover,
+.team-icon-list-item-link-fix:focus {
+  background-color: #404bbf;
+}
+.social-icon-fix {
+  fill: #f4f4fd;
 }
 /* ----------------------------------------------------------------------------------------------- */
 /* PORTFOLIO SECTION */
